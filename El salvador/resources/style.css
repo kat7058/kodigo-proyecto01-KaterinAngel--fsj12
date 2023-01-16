@@ -1,0 +1,260 @@
+html { 
+    height: 100%;
+}
+body {
+    
+    background-color: #090A5E;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23830000' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23600000' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23860019' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23680016' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%2384002c' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%236e0027' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%237d003f' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%236f0039' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23710050' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%236c004d' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%235f005f' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23620062' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container{
+    height: 125px;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;  
+
+}
+
+.imgenes{
+    height: 100px;
+    text-align: left;
+}
+
+
+/* Estilos para mi menu de navegacion */
+nav{
+    background-color: rgb(3, 14, 58);
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+nav a:active, nav a:hover{
+    background-color: #070986;
+    transition: .5s;
+}
+/*Estilo del main en todas las paginas */
+main{
+    height: 1300px;
+    text-align: justify;
+    padding-left: 240px;
+    padding-top: 14px;
+    padding-right: 240px;
+
+}
+/*Titulo de todad las paginas*/
+h1 {
+    font-size: 70px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+/*Estilos de la etiqueta p*/
+p{
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.izp{
+    padding-left: 15px;
+}
+.drp{
+    padding-right: 15px;
+}
+/*Estilo de las imagenes */
+img{
+    height: 355px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/*Estilo de la tabla del index */
+table{
+    margin: 0 auto;
+}
+/*Estilo del footer*/
+footer{
+background-color: rgb(3, 14, 58);
+
+}
+footer p{
+    font-size: 10px;
+    text-align: center;
+    color: rgb(198,198,198);
+}
+
+footer img{
+    height: 75px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+   
+
+}
+/*estilo del mapa*/
+section{
+  
+    text-align: center;
+}
+iframe{
+    min-height: 50px;
+    max-width: 800px;
+    margin-top: 14px;
+    margin-bottom: 25px;
+
+}
+h2{
+    margin-top: 25px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+
+}
+/* pagina malacatiupan*/
+.malimg{
+    max-width: 500px;
+}
+h3{
+     margin-top: 15px;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 25px;
+     text-align: center;
+}
+.enlace{
+    position: absolute;
+    padding-left: 20px 50px;
+}
+/*Uso de media query*/
+@media(max-width: 952px){
+    .enlace{
+        padding-left: 20px;
+    }
+    /* Estilo del nav*/
+    nav{
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    nav a {
+        font-size: 12px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    /*Estilo de la etiqueta p*/
+    p{
+        font-size: 13px;
+    }
+    .izp{
+        padding-left: 8px;
+    }
+    .drp{
+        padding-right: 8px;
+    }
+    /*Estilo de las imagenes en tablas */
+    table img{
+        height: 200px;
+    } 
+    /*Estilo de las etiquetas h1*/
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    /*Estilo del main*/
+    main{
+        height: 850px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 25px;
+    }
+    /*Estilo del footer*/
+    footer img{
+        height: 50px;
+    }
+    iframe{
+        height: 250px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    /*Estilo de las imagen del encavezado*/
+    .imgenes{
+        height: 50px;
+    }
+    .container{
+        height: 100px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+    }
+  
+}
+/*Media query2*/
+ 
+@media(max-width: 750px){
+/*Estilo de la etiqueta nav*/
+nav{
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+nav a{
+    font-size: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+/*Estilo de la etiqueta main*/
+main{
+    height: 750px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+}
+/*Estilo de la imagen del encavezado*/
+.container{
+    height: 75px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+/*Estilo de las etuqetas h*/
+h1{
+    font-size: 35px;
+}
+h2{
+    font-size: 15px;
+}
+h3{
+    font-size: 12px;
+}
+/*Estilo de la etiqueta p*/
+p{
+    font-size: 11px;
+}
+/*Estilo de las imagenes dentro de las tablas*/
+table img{
+    height: 175px;
+}
+/*Estilo de la etuqeta iframe*/
+iframe{
+    height: 125px;
+}
+/*Estilo del footer*/
+footer img{
+    height: 35px;
+
+}
+
+}
